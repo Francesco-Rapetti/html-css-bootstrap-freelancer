@@ -34,8 +34,22 @@ header nav > div > a {
     color: white;
 }
 
+.bgWhite {
+    background-color: white;
+    color: #304050;
+}
+
+.bgDarkBlue {
+    background-color: #304050;
+}
+
+section {
+    padding: 48px 0;
+}
+
 section h1 {
     font-size: 48px;
+    font-weight: 600;
 }
 
 /* jumbo section */
