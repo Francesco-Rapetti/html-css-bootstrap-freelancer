@@ -35,13 +35,26 @@ textarea::placeholder {
     font-weight: 600;
 }
 
-input[type="text"]:focus, 
-input[type="email"]:focus,
-input[type="number"]:focus,
-textarea:focus {
-    /* border: 0px; */
-    appearance: none;
-    
+.colorTeal {
+    color: #29ba9c;
+}
+
+.bgTeal { 
+    background-color: #29ba9c; 
+    color: white;
+}
+
+.bgWhite {
+    background-color: white;
+    color: #304050;
+}
+
+.bgDarkBlue {
+    background-color: #304050;
+}
+
+.bgLightBlue {
+    background-color: #3d556b;
 }
 
 /* HEADER */
@@ -63,20 +76,6 @@ header nav > div > a {
 
 /* MAIN */
 
-.bgTeal { 
-    background-color: #29ba9c; 
-    color: white;
-}
-
-.bgWhite {
-    background-color: white;
-    color: #304050;
-}
-
-.bgDarkBlue {
-    background-color: #304050;
-}
-
 section {
     padding: 48px 0;
 }
@@ -90,4 +89,16 @@ section h1 {
 
 section#jumbo img {
     width: 200px;
+}
+
+/* FOOTER */
+
+footer .icon {
+    max-width: 40px;
+    max-height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    padding: 32px;
 }
