@@ -1,0 +1,22 @@
+/* GENERAL */
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+/* HEADER */
+
+header {
+    color: white;
+    background-color: #304050;
+}
+
+header nav > div:hover {
+    background-color: #222e3a;
+    cursor: pointer;
+}
+
+header nav > div > a {
+    font-size: 0.8rem;
+}
