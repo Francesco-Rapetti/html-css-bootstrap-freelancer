@@ -11,6 +11,39 @@ a {
     border-radius: 16px;
 }
 
+textarea {
+    min-height: 200px;
+}
+
+input[type="text"], 
+input[type="email"],
+input[type="number"],
+textarea {
+    border: 0;
+    border-bottom: 2px solid #d3d2d3;
+    width: 100%;
+    color: #304050;
+    padding: 16px 0;
+}
+
+input[type="text"]::placeholder, 
+input[type="email"]::placeholder,
+input[type="number"]::placeholder,
+textarea::placeholder {
+    color: #304050;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+input[type="text"]:focus, 
+input[type="email"]:focus,
+input[type="number"]:focus,
+textarea:focus {
+    /* border: 0px; */
+    appearance: none;
+    
+}
+
 /* HEADER */
 
 header {
