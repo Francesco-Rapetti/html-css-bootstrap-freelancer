@@ -94,8 +94,8 @@ section#jumbo img {
 /* FOOTER */
 
 footer .icon {
-    max-width: 40px;
-    max-height: 40px;
+    width: 10px;
+    height: 10px;
     display: flex;
     align-items: center;
     justify-content: center;
