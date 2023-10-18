@@ -10,17 +10,46 @@
 </head>
 <body>
     <header class="position-fixed shadow w-100">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-4 d-flex align-items-center">
+        <div class="container-fluid">
+            <div class="row justify-content-between">
+                <div class="col-6 p-3">
                     <a href="#">
                         <span id="logo" class="w-100 fs-4 fw-bold">START BOOTSTRAP</span>
                     </a>
                 </div>
 
-                <div class="col-md-4"></div>
+                <div class="col-2"></div>
 
-                <div class="col-md-4 d-md-block d-none">
+                <div class="col-2 d-md-none"></div>
+                <div class="col-2 d-md-none text-end m-auto">
+                    
+                    <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar"
+                        aria-controls="offcanvasDarkNavbar">
+                        <i class="fas fa-bars fs-1 m-auto"></i>
+                    </button>
+                    <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar"
+                        aria-labelledby="offcanvasDarkNavbarLabel">
+                        <div class="offcanvas-header">
+                            <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">Menu</h5>
+                            <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                        </div>
+                        <div class="offcanvas-body">
+                            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                                <li class="nav-item">
+                                    <a class="nav-link active" aria-current="page" href="#">PORTFOLIO</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">ABOUT</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="#" class="nav-link">CONTACT</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-4 d-md-block d-none">
                     <nav class="justify-content-end d-flex">
                         <div class="p-4">
                             <a href="#">PORTFOLIO</a>
