@@ -1,5 +1,10 @@
 /* GENERAL */
 
+#main-footer {
+    max-height: calc(100vh - 72px);
+    overflow-y: auto;
+}
+
 a {
     text-decoration: none;
     color: white;
@@ -74,6 +79,7 @@ input[type=number] {
 header {
     color: white;
     background-color: #304050;
+    height: 72px;
 }
 
 header nav > div:hover {
